@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    background-color:aqua;
+    border-radius: 100%;
+    padding-bottom: 20px;
+    align-items: center;
+    margin: 50px;
+    box-shadow: 10px 10px 33px 10px rgb(56, 129, 129);
+}
+.lives{
+    a{
+        color: yellow;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    box-shadow: 10px 10px 33px 10px black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: crimson;
+}
+img{
+    align-items: center;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+}
